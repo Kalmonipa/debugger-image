@@ -12,4 +12,4 @@ docker push $IMAGE_NAME:$1
 docker push $IMAGE_NAME:latest
 
 git tag --annotate $1 --message "Version $1"
-git push $1
+git push origin $1
