@@ -2,6 +2,7 @@ FROM alpine:3.21
 RUN apk add --no-cache \
     bash \
     bind-tools \
+    busybox-extras \
     curl \
     iproute2 \
     iputils \
@@ -13,4 +14,4 @@ RUN apk add --no-cache \
     vim \
     wget 
 
-CMD ["/bin/sh"] 
+CMD ["/bin/bash"] 
