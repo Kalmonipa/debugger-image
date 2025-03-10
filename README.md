@@ -1,5 +1,5 @@
 # debugger-image
-Lightweight docker image that has a few useful tools for debugging 
+Lightweight Alpine based docker image that has a few useful tools for debugging 
 
 ### Tools 
     bash
