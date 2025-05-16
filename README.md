@@ -8,6 +8,7 @@ docker pull kalmonipa/debugger-image
 Link to [DockerHub](https://hub.docker.com/r/kalmonipa/debugger-image)
 
 ### Tools 
+    aws-cli
     bash
     bind-tools
     curl
