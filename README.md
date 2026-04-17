@@ -4,8 +4,11 @@ Lightweight Alpine based docker image that has a few useful tools for debugging 
 To use it
 ```
 docker pull kalmonipa/debugger-image
+docker run 
 ```
 Link to [DockerHub](https://hub.docker.com/r/kalmonipa/debugger-image)
+
+
 
 ### Tools 
     aws-cli

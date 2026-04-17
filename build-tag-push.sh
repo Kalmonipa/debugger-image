@@ -7,7 +7,7 @@ if [[ ! "$1" =~ $SEMVER_REGEX ]]; then
     exit 1
 fi
 
-docker build --tag $IMAGE_NAME:$1 --tag $IMAGE_NAME:latest .
+docker build --platform linux/amd64,linux/arm64 --tag $IMAGE_NAME:$1 --tag $IMAGE_NAME:latest .
 docker push $IMAGE_NAME:$1
 docker push $IMAGE_NAME:latest
 
